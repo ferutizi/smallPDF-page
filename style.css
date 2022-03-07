@@ -1,11 +1,21 @@
+* {
+    font-family: Source Sans Pro;
+}
+
+p {
+    color: #212121;
+    margin: 0 0 0 0;
+}
+.color-black {
+    color: black;
+}
+
 #titulo {
-    font-family: 'Source Sans Pro', sans-serif;
     font-size: 4rem;
     font-weight: 700;
 }
 
 #subtitulo {
-    font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.4rem;
     line-height: 2rem;
     font-weight: 400;
@@ -13,15 +23,47 @@
 }
 
 .card-title {
-    font-family: 'Source Sans Pro', sans-serif;
     font-size: 1rem;
     font-weight: 600;
 }
 
 .card-text {
-    font-family: 'Source Sans Pro', sans-serif;
     font-size: 1rem;
 }
 
+.card:hover {
+    cursor: pointer;
+}
 
-/*  wght@300;600&display=swap */
+.card-body {
+    background-color: #f8f9fa;
+}
+.card-body:hover {
+    background-color: #eee;
+}
+
+#logo {
+    padding-right: 2rem;
+}
+
+#center {
+    width: 10rem;
+    margin: auto 0;
+}
+
+#tools {
+    width: 5rem;
+}
+
+.nav-item {
+    padding: 0rem 1rem;
+}
+
+.contain {
+    display: contents;
+}
+
+.mid {
+    width: 10px;
+    margin: auto 0;
+}
