@@ -2,12 +2,26 @@
     font-family: Source Sans Pro;
 }
 
+/* TEXT */
 p {
     color: #212121;
     margin: 0 0 0 0;
 }
+
 .color-black {
     color: black;
+}
+
+.p-active {
+    font-size: 1rem;
+}
+
+.p-active:hover {
+    color: #757575;
+}
+
+.p-active:active {
+    color:#a9a9a9
 }
 
 #titulo {
@@ -22,6 +36,8 @@ p {
     padding-top: 1rem;
 }
 
+/* CARD */
+
 .card-title {
     font-size: 1rem;
     font-weight: 600;
@@ -31,16 +47,21 @@ p {
     font-size: 1rem;
 }
 
-.card:hover {
-    cursor: pointer;
-}
-
 .card-body {
     background-color: #f8f9fa;
+    user-select: none;
+    margin: 0;
 }
 .card-body:hover {
     background-color: #eee;
+    cursor: pointer;
 }
+
+.card-body:active {
+    background-color: #ddd;
+}
+
+/* NAV */
 
 #logo {
     padding-right: 2rem;
@@ -59,6 +80,11 @@ p {
     padding: 0rem 1rem;
 }
 
+.nav-border {
+    padding: 0.9rem 0 0.9rem 0.4rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
 .contain {
     display: contents;
 }
@@ -66,4 +92,22 @@ p {
 .mid {
     width: 10px;
     margin: auto 0;
+}
+
+.new {
+    display: inline-block;
+    background-color: black;
+    border-radius: 1.2rem;
+    padding: 0.05rem 0.5rem;
+    width: 2.6rem;
+    margin: auto 0
+}
+
+.text-new {
+    margin-bottom: 0;
+    color: white;
+    font-weight: 600;
+    font-size: 0.8rem;
+    width: 1.6rem;
+    margin: auto 0
 }
