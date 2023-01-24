@@ -1,7 +1,7 @@
 # smallPDF-page
 
 Copia visual de la pagina [smallPDF](https://smallpdf.com/pdf-tools) a modo de ejercicio.
-Podés ver la demo [ACA](https://ferutizi.github.io/smallPDF-page/)
+Podés ver la demo [ACA](https://ferutizi.github.io/smallPDF-page/).
 
 ## Configuracion inicial
 
